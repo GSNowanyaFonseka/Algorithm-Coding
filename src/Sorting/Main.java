@@ -10,8 +10,12 @@ public class Main {
         BubbleSort bubblleSort = new BubbleSort();
         bubblleSort.BubbleSort(array);
 
-        System.out.println("Sorted with selection sort algorithm");
+        System.out.println("\nSorted with selection sort algorithm");
         SelectionSort selectioSort = new SelectionSort();
         selectioSort.SelectionSort(array);
+
+        System.out.println("\nSorted with merge sort algorithm");
+        MergeSort mergeSort = new MergeSort(array);
+        mergeSort.mergesort(array);
     }
 }

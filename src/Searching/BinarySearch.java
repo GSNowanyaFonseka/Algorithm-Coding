@@ -2,6 +2,9 @@ package Searching;
 
 public class BinarySearch {
 
+    // time complexity = O(log n)
+    // space complexity = O(1)
+
     public int binarySearch(int[]array,int target){
 
         int low = 0;

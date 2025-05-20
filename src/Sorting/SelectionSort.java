@@ -2,6 +2,9 @@ package Sorting;
 
 public class SelectionSort {
 
+    // time complexity = O(n^2)
+    // space complexity = O(1)
+
     public static void SelectionSort(int[] array){
         int min=0;
 

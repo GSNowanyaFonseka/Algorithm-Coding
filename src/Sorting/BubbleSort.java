@@ -2,9 +2,10 @@ package Sorting;
 
 public class BubbleSort {
 
+    // time complexity = O(n^2)
+    // space complexity = O(1)
+
     public static void BubbleSort(int[]array){
-
-
 
         for(int i=0; i<array.length;i++){
             boolean swapped = false;
